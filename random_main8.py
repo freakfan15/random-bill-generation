@@ -70,10 +70,45 @@ def distribute_stocks_adjusted(stocks, ledgers):
 
 detailed_bills_random = distribute_stocks_adjusted(stocks, ledgers)
 
-from consolidate_main import process_ledgers
+def redistribute_exact_quantities(df, date_range):
+    np.random.seed(0)  # Seed for reproducibility
+    output = []
+    for _, row in df.iterrows():
+        total_quantity = row['quantity']
+        quantities = np.zeros(len(date_range), dtype=int)
+        indices = np.random.choice(len(date_range), total_quantity, replace=True)
+        quantities += np.bincount(indices, minlength=len(date_range))
+        for quantity, date in zip(quantities, date_range):
+            if quantity > 0:  # Only include days where sales occurred
+                output.append({
+                    'ledger_name': row['ledger_name'],
+                    'date': date.strftime('%Y-%m-%d'),
+                    'item_name': row['item_name'],
+                    'quantity': quantity,
+                    'rate': row['rate'],
+                    'total_sales': quantity * row['rate']
+                })
+    return pd.DataFrame(output)
+
+# Function to consolidate entries
+def consolidate_entries(df):
+    return df.groupby(['ledger_name', 'date', 'item_name', 'rate'], as_index=False).sum()
+
+# Function to process all ledgers
+def process_ledgers(ledger_data, ledgers):
+    consolidated_data = pd.DataFrame()
+    for ledger in ledgers:
+        ledger_df = ledger_data[ledger_data['ledger_name'] == ledger['name']]
+        date_range = pd.date_range(start=ledger['startDate'], end=ledger['endDate'])
+        if not ledger_df.empty and not date_range.empty:
+            redistributed_ledger_df = redistribute_exact_quantities(ledger_df, date_range)
+            consolidated_ledger_df = consolidate_entries(redistributed_ledger_df)
+            consolidated_data = pd.concat([consolidated_data, consolidated_ledger_df], ignore_index=True)
+    return consolidated_data
 
 #convert detailed_bills_random to a pd dataframe
 import pandas as pd
+import numpy as np
 detailed_bills_random_df = pd.DataFrame(detailed_bills_random)
 
 #from ledgers make a new array that stores ledgers data like this:
