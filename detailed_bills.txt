@@ -1,0 +1,262 @@
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 1
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 22.22222222222222 @ 15/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 22.22222222222222 @ 15/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 22.22222222222222 @ 15/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 22.22222222222222 @ 15/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMAAL 66GM MRP-10/-: 11.111111111111107 @ 15/-
+  - 5050 GOLMALL 28 GM MRP-5/-: 33.33333333333334 @ 5/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 2
+Date: 2024-03-28
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 66.66666666666666 @ 5/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 3
+Date: 2024-03-20
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 100.0 @ 5/-
+Total Sales: 500.0
+
+Ledger ID: 4
+Date: 2024-03-31
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 80.0 @ 5/-
+Total Sales: 400.0
+
+Ledger ID: 4
+Date: 2024-03-31
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 19.99999999999997 @ 5/-
+  - 5050 GOLMALL 28 GM MRP-5/-: 42.857142857142875 @ 7/-
+Total Sales: 400.0
+
+Ledger ID: 4
+Date: 2024-03-31
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 57.142857142857146 @ 7/-
+Total Sales: 400.0
+
+Ledger ID: 4
+Date: 2024-03-31
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 57.142857142857146 @ 7/-
+Total Sales: 400.0
+
+Ledger ID: 4
+Date: 2024-03-31
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 57.142857142857146 @ 7/-
+Total Sales: 400.0
+
+Ledger ID: 5
+Date: 2024-03-27
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 47.61904761904761 @ 7/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 5
+Date: 2024-03-27
+Items:
+  - 5050 GOLMALL 28 GM MRP-5/-: 38.09523809523808 @ 7/-
+  - 5050 72.5gm Mrp-10/: 6.666666666666674 @ 10/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 5
+Date: 2024-03-27
+Items:
+  - 5050 72.5gm Mrp-10/: 33.33333333333333 @ 10/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 6
+Date: 2024-03-29
+Items:
+  - 5050 72.5gm Mrp-10/: 33.33333333333333 @ 10/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 6
+Date: 2024-03-29
+Items:
+  - 5050 72.5gm Mrp-10/: 33.33333333333333 @ 10/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 6
+Date: 2024-03-29
+Items:
+  - 5050 72.5gm Mrp-10/: 33.33333333333333 @ 10/-
+Total Sales: 333.3333333333333
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 20.0 @ 10/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 1.4210854715202004e-14 @ 10/-
+  - 5050 72.5gm Mrp-10/: 24.999999999999982 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
+Ledger ID: 7
+Date: 2024-03-30
+Items:
+  - 5050 72.5gm Mrp-10/: 25.0 @ 8/-
+Total Sales: 200.0
+
