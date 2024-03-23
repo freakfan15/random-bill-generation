@@ -56,7 +56,8 @@ def distribute_stocks_adjusted(stocks, ledgers):
                             'quantity': max_quantity_for_target,
                             'rate': rateQuantity['rate'],
                             'total_sales': max_quantity_for_target * rateQuantity['rate'],
-                        })        
+                        })
+                
 
     return detailed_bills
 
@@ -64,7 +65,7 @@ def distribute_stocks_adjusted(stocks, ledgers):
 detailed_bills_random = distribute_stocks_adjusted(stocks, ledgers)
 
 def adjust_and_reallocate_stocks(ledgers, detailed_bills):
-    # Helper function to identify unallocated dates for a ledger
+    #Helper function to identify unallocated dates for a ledger
     def get_unallocated_dates(ledger, allocated_dates):
         start_date = global_start_date if ledger['beforeOrExact'] == 'Before' else datetime.strptime(ledger['date'], "%Y-%m-%d")
         end_date = datetime.strptime(ledger['date'], "%Y-%m-%d")
@@ -78,6 +79,7 @@ def adjust_and_reallocate_stocks(ledgers, detailed_bills):
         ledger_bills = [bill for bill in detailed_bills if bill['ledger_name'] == ledger['name']]
         allocated_dates = {datetime.strptime(bill['date'], "%Y-%m-%d") for bill in ledger_bills}
         unallocated_dates = get_unallocated_dates(ledger, allocated_dates)
+        # print(f"Unallocated dates for ledger '{ledger['name']}': {unallocated_dates}")
         stock_pool = []
 
         # Adjustment Phase: Create a pool of stocks by subtracting up to 10% from each allocation
@@ -97,6 +99,7 @@ def adjust_and_reallocate_stocks(ledgers, detailed_bills):
                 # Allocate from the pool to this unallocated date
                 allocated_quantity = min(stock['quantity'], round(stock['rate']))  # Example allocation logic
                 stock['quantity'] -= allocated_quantity
+                print(f"Allocating {allocated_quantity} of {stock['item_name']} to {ledger['name']} on {date.strftime('%Y-%m-%d')}")
                 new_detailed_bills.append({
                     'ledger_name': ledger['name'],
                     'date': date.strftime("%Y-%m-%d"),
@@ -117,7 +120,7 @@ adjusted_detailed_bills = adjust_and_reallocate_stocks(ledgers, detailed_bills_r
 
 # see which ledgers are allocates how much sales
 ledger_sales = {ledger['name']: 0 for ledger in ledgers}
-for bill in detailed_bills_random:
+for bill in adjusted_detailed_bills:
     ledger_sales[bill['ledger_name']] += bill['total_sales']
 
 print(ledger_sales)

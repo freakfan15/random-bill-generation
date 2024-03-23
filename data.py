@@ -28,3 +28,13 @@ ledgers = [
     {"id": 6, "name": "RJY Bricks", "beforeOrExact": "Before", "date": "2024-03-29", "totalSales": 1000, "rangeLB": 300, "rangeUB": 1000},
     {"id": 7, "name": "Srinet Ent Bhatta", "beforeOrExact": "Before", "date": "2024-03-30", "totalSales": 3000, "rangeLB": 200, "rangeUB": 1000},
 ]
+
+ledgers_data = [
+    {"id": 1, "name": "Darshan Singh & Sons", "startDate": "2024-03-19", "endDate": "2024-03-28"},
+    {"id": 2, "name": "Ganesh Sharma Bricks Field", "startDate": "2024-03-19", "endDate": "2024-03-28"},
+    {"id": 3, "name": "Jai Ambey Brick Field", "startDate": "2024-03-20", "endDate": "2024-03-20"},
+    {"id": 4, "name": "Jai Ambey Bricks Field", "startDate": "2024-03-19", "endDate": "2024-03-31"},
+    {"id": 5, "name": "Raj Enterprises", "startDate": "2024-03-19", "endDate": "2024-03-27"},
+    {"id": 6, "name": "RJY Bricks", "startDate": "2024-03-19", "endDate": "2024-03-29"},
+    {"id": 7, "name": "Srinet Ent Bhatta", "startDate": "2024-03-19", "endDate": "2024-03-30"},
+]
